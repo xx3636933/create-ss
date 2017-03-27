@@ -1,0 +1,1131 @@
+[H[2J
+#############################################################
+# One click Install Shadowsocks-Python server               #
+# Intro: https://teddysun.com/342.html                      #
+# Author: Teddysun <i@teddysun.com>                         #
+# Github: https://github.com/shadowsocks/shadowsocks        #
+#############################################################
+
+Please input password for shadowsocks-python:
+(Default password: teddysun.com):
+---------------------------
+password = 87607617
+---------------------------
+
+Please input port for shadowsocks-python [1-65535]:
+(Default port: 8989):
+---------------------------
+port = 443
+---------------------------
+
+
+Press any key to start...or Press Ctrl+C to cancel
+Ign http://archive.ubuntu.com trusty InRelease
+Hit http://security.ubuntu.com trusty-security InRelease
+Get:1 http://archive.ubuntu.com trusty-updates InRelease [65.9 kB]
+Hit http://security.ubuntu.com trusty-security/main Sources
+Hit http://security.ubuntu.com trusty-security/restricted Sources
+Hit http://security.ubuntu.com trusty-security/universe Sources
+Hit http://archive.ubuntu.com trusty-backports InRelease
+Hit http://security.ubuntu.com trusty-security/multiverse Sources
+Hit http://archive.ubuntu.com trusty Release.gpg
+Hit http://security.ubuntu.com trusty-security/main amd64 Packages
+Get:2 http://archive.ubuntu.com trusty-updates/main Sources [393 kB]
+Hit http://security.ubuntu.com trusty-security/restricted amd64 Packages
+Hit http://security.ubuntu.com trusty-security/universe amd64 Packages
+Hit http://security.ubuntu.com trusty-security/multiverse amd64 Packages
+Get:3 http://archive.ubuntu.com trusty-updates/restricted Sources [5,911 B]
+Get:4 http://archive.ubuntu.com trusty-updates/universe Sources [175 kB]
+Hit http://security.ubuntu.com trusty-security/main i386 Packages
+Hit http://security.ubuntu.com trusty-security/restricted i386 Packages
+Get:5 http://archive.ubuntu.com trusty-updates/multiverse Sources [7,513 B]
+Get:6 http://archive.ubuntu.com trusty-updates/main amd64 Packages [962 kB]
+Hit http://security.ubuntu.com trusty-security/universe i386 Packages
+Hit http://security.ubuntu.com trusty-security/multiverse i386 Packages
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Get:7 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [16.4 kB]
+Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
+Get:8 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [401 kB]
+Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+Get:9 http://archive.ubuntu.com trusty-updates/multiverse amd64 Packages [14.0 kB]
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Get:10 http://archive.ubuntu.com trusty-updates/main i386 Packages [924 kB]
+Get:11 http://archive.ubuntu.com trusty-updates/restricted i386 Packages [16.2 kB]
+Get:12 http://archive.ubuntu.com trusty-updates/universe i386 Packages [403 kB]
+Get:13 http://archive.ubuntu.com trusty-updates/multiverse i386 Packages [14.4 kB]
+Hit http://archive.ubuntu.com trusty-updates/main Translation-en
+Hit http://archive.ubuntu.com trusty-updates/multiverse Translation-en
+Hit http://archive.ubuntu.com trusty-updates/restricted Translation-en
+Hit http://archive.ubuntu.com trusty-updates/universe Translation-en
+Hit http://archive.ubuntu.com trusty-backports/main Sources
+Hit http://archive.ubuntu.com trusty-backports/restricted Sources
+Hit http://archive.ubuntu.com trusty-backports/universe Sources
+Hit http://archive.ubuntu.com trusty-backports/multiverse Sources
+Hit http://archive.ubuntu.com trusty-backports/main amd64 Packages
+Hit http://archive.ubuntu.com trusty-backports/restricted amd64 Packages
+Hit http://archive.ubuntu.com trusty-backports/universe amd64 Packages
+Hit http://archive.ubuntu.com trusty-backports/multiverse amd64 Packages
+Hit http://archive.ubuntu.com trusty-backports/main i386 Packages
+Hit http://archive.ubuntu.com trusty-backports/restricted i386 Packages
+Hit http://archive.ubuntu.com trusty-backports/universe i386 Packages
+Hit http://archive.ubuntu.com trusty-backports/multiverse i386 Packages
+Hit http://archive.ubuntu.com trusty-backports/main Translation-en
+Hit http://archive.ubuntu.com trusty-backports/multiverse Translation-en
+Hit http://archive.ubuntu.com trusty-backports/restricted Translation-en
+Hit http://archive.ubuntu.com trusty-backports/universe Translation-en
+Hit http://archive.ubuntu.com trusty Release
+Hit http://archive.ubuntu.com trusty/main Sources
+Hit http://archive.ubuntu.com trusty/restricted Sources
+Hit http://archive.ubuntu.com trusty/universe Sources
+Hit http://archive.ubuntu.com trusty/multiverse Sources
+Hit http://archive.ubuntu.com trusty/main amd64 Packages
+Hit http://archive.ubuntu.com trusty/restricted amd64 Packages
+Hit http://archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://archive.ubuntu.com trusty/multiverse amd64 Packages
+Hit http://archive.ubuntu.com trusty/main i386 Packages
+Hit http://archive.ubuntu.com trusty/restricted i386 Packages
+Hit http://archive.ubuntu.com trusty/universe i386 Packages
+Hit http://archive.ubuntu.com trusty/multiverse i386 Packages
+Hit http://archive.ubuntu.com trusty/main Translation-en
+Hit http://archive.ubuntu.com trusty/multiverse Translation-en
+Hit http://archive.ubuntu.com trusty/restricted Translation-en
+Hit http://archive.ubuntu.com trusty/universe Translation-en
+Ign http://archive.ubuntu.com trusty/main Translation-en_US
+Ign http://archive.ubuntu.com trusty/multiverse Translation-en_US
+Ign http://archive.ubuntu.com trusty/restricted Translation-en_US
+Ign http://archive.ubuntu.com trusty/universe Translation-en_US
+Fetched 3,399 kB in 11s (286 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python is already the newest version.
+python-m2crypto is already the newest version.
+cpio is already the newest version.
+curl is already the newest version.
+perl is already the newest version.
+python-setuptools is already the newest version.
+wget is already the newest version.
+The following extra packages will be installed:
+  autoconf autotools-dev binutils cpp cpp-4.8 dpkg-dev g++ g++-4.8 gcc-4.8
+  libasan0 libatomic1 libc-dev-bin libc6-dev libcloog-isl4 libdpkg-perl
+  libexpat1-dev libgcc-4.8-dev libgmp10 libgomp1 libisl10 libitm1 libmpc3
+  libmpfr4 libpython-dev libpython2.7-dev libquadmath0 libsigsegv2
+  libstdc++-4.8-dev libtimedate-perl libtsan0 linux-libc-dev m4 patch
+  python-chardet python-chardet-whl python-colorama python-colorama-whl
+  python-distlib python-distlib-whl python-html5lib python-html5lib-whl
+  python-pip-whl python-requests python-requests-whl python-setuptools-whl
+  python-six python-six-whl python-urllib3 python-urllib3-whl python2.7-dev
+  python3-pkg-resources swig2.0
+Suggested packages:
+  autoconf2.13 autoconf-archive gnu-standards autoconf-doc libtool gettext
+  binutils-doc cpp-doc gcc-4.8-locales debian-keyring g++-multilib
+  g++-4.8-multilib gcc-4.8-doc libstdc++6-4.8-dbg gcc-multilib manpages-dev
+  automake1.9 flex bison gdb gcc-doc gcc-4.8-multilib libgcc1-dbg libgomp1-dbg
+  libitm1-dbg libatomic1-dbg libasan0-dbg libtsan0-dbg libquadmath0-dbg
+  glibc-doc libstdc++-4.8-doc make-doc diffutils-doc python-genshi python-lxml
+  python3-setuptools swig-doc swig-examples swig2.0-examples swig2.0-doc zip
+Recommended packages:
+  fakeroot libalgorithm-merge-perl libfile-fcntllock-perl python-dev-all
+  python-wheel
+The following NEW packages will be installed:
+  autoconf automake autotools-dev binutils build-essential cpp cpp-4.8
+  dpkg-dev g++ g++-4.8 gcc gcc-4.8 libasan0 libatomic1 libc-dev-bin libc6-dev
+  libcloog-isl4 libdpkg-perl libexpat1-dev libgcc-4.8-dev libgmp10 libgomp1
+  libisl10 libitm1 libmpc3 libmpfr4 libpython-dev libpython2.7-dev
+  libquadmath0 libsigsegv2 libstdc++-4.8-dev libtimedate-perl libtsan0
+  linux-libc-dev m4 make patch python-chardet python-chardet-whl
+  python-colorama python-colorama-whl python-dev python-distlib
+  python-distlib-whl python-html5lib python-html5lib-whl python-pip
+  python-pip-whl python-requests python-requests-whl python-setuptools-whl
+  python-six python-six-whl python-urllib3 python-urllib3-whl python2.7-dev
+  python3-pkg-resources swig swig2.0 unzip
+0 upgraded, 60 newly installed, 0 to remove and 1 not upgraded.
+Need to get 64.0 MB of archives.
+After this operation, 161 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libasan0 amd64 4.8.4-2ubuntu1~14.04.3 [63.1 kB]
+Get:2 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libatomic1 amd64 4.8.4-2ubuntu1~14.04.3 [8,636 B]
+Get:3 http://archive.ubuntu.com/ubuntu/ trusty/main libgmp10 amd64 2:5.1.3+dfsg-1ubuntu1 [218 kB]
+Get:4 http://archive.ubuntu.com/ubuntu/ trusty/main libisl10 amd64 0.12.2-1 [419 kB]
+Get:5 http://archive.ubuntu.com/ubuntu/ trusty/main libcloog-isl4 amd64 0.18.2-1 [57.5 kB]
+Get:6 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libgomp1 amd64 4.8.4-2ubuntu1~14.04.3 [23.1 kB]
+Get:7 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libitm1 amd64 4.8.4-2ubuntu1~14.04.3 [28.5 kB]
+Get:8 http://archive.ubuntu.com/ubuntu/ trusty/main libmpfr4 amd64 3.1.2-1 [203 kB]
+Get:9 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libc-dev-bin amd64 2.19-0ubuntu6.9 [69.0 kB]
+Get:10 http://archive.ubuntu.com/ubuntu/ trusty-updates/main linux-libc-dev amd64 3.13.0-113.160 [768 kB]
+Get:11 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libc6-dev amd64 2.19-0ubuntu6.9 [1,910 kB]
+Get:12 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libexpat1-dev amd64 2.1.0-4ubuntu1.3 [115 kB]
+Get:13 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libpython2.7-dev amd64 2.7.6-8ubuntu0.3 [22.0 MB]
+Get:14 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libquadmath0 amd64 4.8.4-2ubuntu1~14.04.3 [126 kB]
+Get:15 http://archive.ubuntu.com/ubuntu/ trusty/main libsigsegv2 amd64 2.10-2 [15.0 kB]
+Get:16 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libtsan0 amd64 4.8.4-2ubuntu1~14.04.3 [94.9 kB]
+Get:17 http://archive.ubuntu.com/ubuntu/ trusty/main libmpc3 amd64 1.0.1-1ubuntu1 [38.4 kB]
+Get:18 http://archive.ubuntu.com/ubuntu/ trusty/main m4 amd64 1.4.17-2ubuntu1 [195 kB]
+Get:19 http://archive.ubuntu.com/ubuntu/ trusty/main autoconf all 2.69-6 [322 kB]
+Get:20 http://archive.ubuntu.com/ubuntu/ trusty/main autotools-dev all 20130810.1 [44.3 kB]
+Get:21 http://archive.ubuntu.com/ubuntu/ trusty/main automake all 1:1.14.1-2ubuntu1 [510 kB]
+Get:22 http://archive.ubuntu.com/ubuntu/ trusty-updates/main binutils amd64 2.24-5ubuntu14.1 [2,081 kB]
+Get:23 http://archive.ubuntu.com/ubuntu/ trusty-updates/main cpp-4.8 amd64 4.8.4-2ubuntu1~14.04.3 [4,595 kB]
+Get:24 http://archive.ubuntu.com/ubuntu/ trusty/main cpp amd64 4:4.8.2-1ubuntu6 [27.5 kB]
+Get:25 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libgcc-4.8-dev amd64 4.8.4-2ubuntu1~14.04.3 [1,688 kB]
+Get:26 http://archive.ubuntu.com/ubuntu/ trusty-updates/main gcc-4.8 amd64 4.8.4-2ubuntu1~14.04.3 [5,047 kB]
+Get:27 http://archive.ubuntu.com/ubuntu/ trusty/main gcc amd64 4:4.8.2-1ubuntu6 [5,098 B]
+Get:28 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libstdc++-4.8-dev amd64 4.8.4-2ubuntu1~14.04.3 [1,053 kB]
+Get:29 http://archive.ubuntu.com/ubuntu/ trusty-updates/main g++-4.8 amd64 4.8.4-2ubuntu1~14.04.3 [18.1 MB]
+Get:30 http://archive.ubuntu.com/ubuntu/ trusty/main g++ amd64 4:4.8.2-1ubuntu6 [1,490 B]
+Get:31 http://archive.ubuntu.com/ubuntu/ trusty/main make amd64 3.81-8.2ubuntu3 [119 kB]
+Get:32 http://archive.ubuntu.com/ubuntu/ trusty/main libtimedate-perl all 2.3000-1 [37.2 kB]
+Get:33 http://archive.ubuntu.com/ubuntu/ trusty-updates/main libdpkg-perl all 1.17.5ubuntu5.7 [179 kB]
+Get:34 http://archive.ubuntu.com/ubuntu/ trusty-updates/main patch amd64 2.7.1-4ubuntu2.3 [86.4 kB]
+Get:35 http://archive.ubuntu.com/ubuntu/ trusty-updates/main dpkg-dev all 1.17.5ubuntu5.7 [726 kB]
+Get:36 http://archive.ubuntu.com/ubuntu/ trusty/main build-essential amd64 11.6ubuntu6 [4,838 B]
+Get:37 http://archive.ubuntu.com/ubuntu/ trusty/main libpython-dev amd64 2.7.5-5ubuntu3 [7,078 B]
+Get:38 http://archive.ubuntu.com/ubuntu/ trusty/main python-chardet all 2.0.1-2build2 [106 kB]
+Get:39 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python3-pkg-resources all 3.3-1ubuntu2 [31.7 kB]
+Get:40 http://archive.ubuntu.com/ubuntu/ trusty-updates/universe python-chardet-whl all 2.2.1-2~ubuntu1 [170 kB]
+Get:41 http://archive.ubuntu.com/ubuntu/ trusty-updates/universe python-colorama all 0.2.5-0.1ubuntu2 [18.4 kB]
+Get:42 http://archive.ubuntu.com/ubuntu/ trusty-updates/universe python-colorama-whl all 0.2.5-0.1ubuntu2 [18.2 kB]
+Get:43 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python2.7-dev amd64 2.7.6-8ubuntu0.3 [269 kB]
+Get:44 http://archive.ubuntu.com/ubuntu/ trusty/main python-dev amd64 2.7.5-5ubuntu3 [1,166 B]
+Get:45 http://archive.ubuntu.com/ubuntu/ trusty-updates/universe python-distlib all 0.1.8-1ubuntu1 [113 kB]
+Get:46 http://archive.ubuntu.com/ubuntu/ trusty-updates/universe python-distlib-whl all 0.1.8-1ubuntu1 [140 kB]
+Get:47 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python-six all 1.5.2-1ubuntu1 [8,238 B]
+Get:48 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python-html5lib all 0.999-3~ubuntu1 [83.5 kB]
+Get:49 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python-html5lib-whl all 0.999-3~ubuntu1 [109 kB]
+Get:50 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python-six-whl all 1.5.2-1ubuntu1 [10.5 kB]
+Get:51 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python-urllib3-whl all 1.7.1-1ubuntu4 [64.0 kB]
+Get:52 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python-requests-whl all 2.2.1-1ubuntu0.3 [227 kB]
+Get:53 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python-setuptools-whl all 3.3-1ubuntu2 [244 kB]
+Get:54 http://archive.ubuntu.com/ubuntu/ trusty-updates/universe python-pip-whl all 1.5.4-1ubuntu4 [111 kB]
+Get:55 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python-urllib3 all 1.7.1-1ubuntu4 [39.5 kB]
+Get:56 http://archive.ubuntu.com/ubuntu/ trusty-updates/main python-requests all 2.2.1-1ubuntu0.3 [43.1 kB]
+Get:57 http://archive.ubuntu.com/ubuntu/ trusty-updates/universe python-pip all 1.5.4-1ubuntu4 [97.3 kB]
+Get:58 http://archive.ubuntu.com/ubuntu/ trusty/main swig2.0 amd64 2.0.11-1ubuntu2 [875 kB]
+Get:59 http://archive.ubuntu.com/ubuntu/ trusty/main swig amd64 2.0.11-1ubuntu2 [6,272 B]
+Get:60 http://archive.ubuntu.com/ubuntu/ trusty-updates/main unzip amd64 6.0-9ubuntu1.5 [157 kB]
+Extracting templates from packages: 50%Extracting templates from packages: 100%
+Fetched 64.0 MB in 14s (4,395 kB/s)
+Selecting previously unselected package libasan0:amd64.
+(Reading database ... 53683 files and directories currently installed.)
+Preparing to unpack .../libasan0_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libasan0:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../libatomic1_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libatomic1:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libgmp10:amd64.
+Preparing to unpack .../libgmp10_2%3a5.1.3+dfsg-1ubuntu1_amd64.deb ...
+Unpacking libgmp10:amd64 (2:5.1.3+dfsg-1ubuntu1) ...
+Selecting previously unselected package libisl10:amd64.
+Preparing to unpack .../libisl10_0.12.2-1_amd64.deb ...
+Unpacking libisl10:amd64 (0.12.2-1) ...
+Selecting previously unselected package libcloog-isl4:amd64.
+Preparing to unpack .../libcloog-isl4_0.18.2-1_amd64.deb ...
+Unpacking libcloog-isl4:amd64 (0.18.2-1) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../libgomp1_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libgomp1:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../libitm1_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libitm1:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libmpfr4:amd64.
+Preparing to unpack .../libmpfr4_3.1.2-1_amd64.deb ...
+Unpacking libmpfr4:amd64 (3.1.2-1) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../libc-dev-bin_2.19-0ubuntu6.9_amd64.deb ...
+Unpacking libc-dev-bin (2.19-0ubuntu6.9) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../linux-libc-dev_3.13.0-113.160_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (3.13.0-113.160) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../libc6-dev_2.19-0ubuntu6.9_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.19-0ubuntu6.9) ...
+Selecting previously unselected package libexpat1-dev:amd64.
+Preparing to unpack .../libexpat1-dev_2.1.0-4ubuntu1.3_amd64.deb ...
+Unpacking libexpat1-dev:amd64 (2.1.0-4ubuntu1.3) ...
+Selecting previously unselected package libpython2.7-dev:amd64.
+Preparing to unpack .../libpython2.7-dev_2.7.6-8ubuntu0.3_amd64.deb ...
+Unpacking libpython2.7-dev:amd64 (2.7.6-8ubuntu0.3) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../libquadmath0_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libquadmath0:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libsigsegv2:amd64.
+Preparing to unpack .../libsigsegv2_2.10-2_amd64.deb ...
+Unpacking libsigsegv2:amd64 (2.10-2) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../libtsan0_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libtsan0:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package libmpc3:amd64.
+Preparing to unpack .../libmpc3_1.0.1-1ubuntu1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.0.1-1ubuntu1) ...
+Selecting previously unselected package m4.
+Preparing to unpack .../m4_1.4.17-2ubuntu1_amd64.deb ...
+Unpacking m4 (1.4.17-2ubuntu1) ...
+Selecting previously unselected package autoconf.
+Preparing to unpack .../autoconf_2.69-6_all.deb ...
+Unpacking autoconf (2.69-6) ...
+Selecting previously unselected package autotools-dev.
+Preparing to unpack .../autotools-dev_20130810.1_all.deb ...
+Unpacking autotools-dev (20130810.1) ...
+Selecting previously unselected package automake.
+Preparing to unpack .../automake_1%3a1.14.1-2ubuntu1_all.deb ...
+Unpacking automake (1:1.14.1-2ubuntu1) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../binutils_2.24-5ubuntu14.1_amd64.deb ...
+Unpacking binutils (2.24-5ubuntu14.1) ...
+Selecting previously unselected package cpp-4.8.
+Preparing to unpack .../cpp-4.8_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking cpp-4.8 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../cpp_4%3a4.8.2-1ubuntu6_amd64.deb ...
+Unpacking cpp (4:4.8.2-1ubuntu6) ...
+Selecting previously unselected package libgcc-4.8-dev:amd64.
+Preparing to unpack .../libgcc-4.8-dev_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libgcc-4.8-dev:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package gcc-4.8.
+Preparing to unpack .../gcc-4.8_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking gcc-4.8 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../gcc_4%3a4.8.2-1ubuntu6_amd64.deb ...
+Unpacking gcc (4:4.8.2-1ubuntu6) ...
+Selecting previously unselected package libstdc++-4.8-dev:amd64.
+Preparing to unpack .../libstdc++-4.8-dev_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking libstdc++-4.8-dev:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package g++-4.8.
+Preparing to unpack .../g++-4.8_4.8.4-2ubuntu1~14.04.3_amd64.deb ...
+Unpacking g++-4.8 (4.8.4-2ubuntu1~14.04.3) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../g++_4%3a4.8.2-1ubuntu6_amd64.deb ...
+Unpacking g++ (4:4.8.2-1ubuntu6) ...
+Selecting previously unselected package make.
+Preparing to unpack .../make_3.81-8.2ubuntu3_amd64.deb ...
+Unpacking make (3.81-8.2ubuntu3) ...
+Selecting previously unselected package libtimedate-perl.
+Preparing to unpack .../libtimedate-perl_2.3000-1_all.deb ...
+Unpacking libtimedate-perl (2.3000-1) ...
+Selecting previously unselected package libdpkg-perl.
+Preparing to unpack .../libdpkg-perl_1.17.5ubuntu5.7_all.deb ...
+Unpacking libdpkg-perl (1.17.5ubuntu5.7) ...
+Selecting previously unselected package patch.
+Preparing to unpack .../patch_2.7.1-4ubuntu2.3_amd64.deb ...
+Unpacking patch (2.7.1-4ubuntu2.3) ...
+Selecting previously unselected package dpkg-dev.
+Preparing to unpack .../dpkg-dev_1.17.5ubuntu5.7_all.deb ...
+Unpacking dpkg-dev (1.17.5ubuntu5.7) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../build-essential_11.6ubuntu6_amd64.deb ...
+Unpacking build-essential (11.6ubuntu6) ...
+Selecting previously unselected package libpython-dev:amd64.
+Preparing to unpack .../libpython-dev_2.7.5-5ubuntu3_amd64.deb ...
+Unpacking libpython-dev:amd64 (2.7.5-5ubuntu3) ...
+Selecting previously unselected package python-chardet.
+Preparing to unpack .../python-chardet_2.0.1-2build2_all.deb ...
+Unpacking python-chardet (2.0.1-2build2) ...
+Selecting previously unselected package python3-pkg-resources.
+Preparing to unpack .../python3-pkg-resources_3.3-1ubuntu2_all.deb ...
+Unpacking python3-pkg-resources (3.3-1ubuntu2) ...
+Selecting previously unselected package python-chardet-whl.
+Preparing to unpack .../python-chardet-whl_2.2.1-2~ubuntu1_all.deb ...
+Unpacking python-chardet-whl (2.2.1-2~ubuntu1) ...
+Selecting previously unselected package python-colorama.
+Preparing to unpack .../python-colorama_0.2.5-0.1ubuntu2_all.deb ...
+Unpacking python-colorama (0.2.5-0.1ubuntu2) ...
+Selecting previously unselected package python-colorama-whl.
+Preparing to unpack .../python-colorama-whl_0.2.5-0.1ubuntu2_all.deb ...
+Unpacking python-colorama-whl (0.2.5-0.1ubuntu2) ...
+Selecting previously unselected package python2.7-dev.
+Preparing to unpack .../python2.7-dev_2.7.6-8ubuntu0.3_amd64.deb ...
+Unpacking python2.7-dev (2.7.6-8ubuntu0.3) ...
+Selecting previously unselected package python-dev.
+Preparing to unpack .../python-dev_2.7.5-5ubuntu3_amd64.deb ...
+Unpacking python-dev (2.7.5-5ubuntu3) ...
+Selecting previously unselected package python-distlib.
+Preparing to unpack .../python-distlib_0.1.8-1ubuntu1_all.deb ...
+Unpacking python-distlib (0.1.8-1ubuntu1) ...
+Selecting previously unselected package python-distlib-whl.
+Preparing to unpack .../python-distlib-whl_0.1.8-1ubuntu1_all.deb ...
+Unpacking python-distlib-whl (0.1.8-1ubuntu1) ...
+Selecting previously unselected package python-six.
+Preparing to unpack .../python-six_1.5.2-1ubuntu1_all.deb ...
+Unpacking python-six (1.5.2-1ubuntu1) ...
+Selecting previously unselected package python-html5lib.
+Preparing to unpack .../python-html5lib_0.999-3~ubuntu1_all.deb ...
+Unpacking python-html5lib (0.999-3~ubuntu1) ...
+Selecting previously unselected package python-html5lib-whl.
+Preparing to unpack .../python-html5lib-whl_0.999-3~ubuntu1_all.deb ...
+Unpacking python-html5lib-whl (0.999-3~ubuntu1) ...
+Selecting previously unselected package python-six-whl.
+Preparing to unpack .../python-six-whl_1.5.2-1ubuntu1_all.deb ...
+Unpacking python-six-whl (1.5.2-1ubuntu1) ...
+Selecting previously unselected package python-urllib3-whl.
+Preparing to unpack .../python-urllib3-whl_1.7.1-1ubuntu4_all.deb ...
+Unpacking python-urllib3-whl (1.7.1-1ubuntu4) ...
+Selecting previously unselected package python-requests-whl.
+Preparing to unpack .../python-requests-whl_2.2.1-1ubuntu0.3_all.deb ...
+Unpacking python-requests-whl (2.2.1-1ubuntu0.3) ...
+Selecting previously unselected package python-setuptools-whl.
+Preparing to unpack .../python-setuptools-whl_3.3-1ubuntu2_all.deb ...
+Unpacking python-setuptools-whl (3.3-1ubuntu2) ...
+Selecting previously unselected package python-pip-whl.
+Preparing to unpack .../python-pip-whl_1.5.4-1ubuntu4_all.deb ...
+Unpacking python-pip-whl (1.5.4-1ubuntu4) ...
+Selecting previously unselected package python-urllib3.
+Preparing to unpack .../python-urllib3_1.7.1-1ubuntu4_all.deb ...
+Unpacking python-urllib3 (1.7.1-1ubuntu4) ...
+Selecting previously unselected package python-requests.
+Preparing to unpack .../python-requests_2.2.1-1ubuntu0.3_all.deb ...
+Unpacking python-requests (2.2.1-1ubuntu0.3) ...
+Selecting previously unselected package python-pip.
+Preparing to unpack .../python-pip_1.5.4-1ubuntu4_all.deb ...
+Unpacking python-pip (1.5.4-1ubuntu4) ...
+Selecting previously unselected package swig2.0.
+Preparing to unpack .../swig2.0_2.0.11-1ubuntu2_amd64.deb ...
+Unpacking swig2.0 (2.0.11-1ubuntu2) ...
+Selecting previously unselected package swig.
+Preparing to unpack .../swig_2.0.11-1ubuntu2_amd64.deb ...
+Unpacking swig (2.0.11-1ubuntu2) ...
+Selecting previously unselected package unzip.
+Preparing to unpack .../unzip_6.0-9ubuntu1.5_amd64.deb ...
+Unpacking unzip (6.0-9ubuntu1.5) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for install-info (5.2.0.dfsg.1-2) ...
+Processing triggers for mime-support (3.54ubuntu1.1) ...
+Setting up libasan0:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up libatomic1:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up libgmp10:amd64 (2:5.1.3+dfsg-1ubuntu1) ...
+Setting up libisl10:amd64 (0.12.2-1) ...
+Setting up libcloog-isl4:amd64 (0.18.2-1) ...
+Setting up libgomp1:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up libitm1:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up libmpfr4:amd64 (3.1.2-1) ...
+Setting up libc-dev-bin (2.19-0ubuntu6.9) ...
+Setting up linux-libc-dev:amd64 (3.13.0-113.160) ...
+Setting up libc6-dev:amd64 (2.19-0ubuntu6.9) ...
+Setting up libexpat1-dev:amd64 (2.1.0-4ubuntu1.3) ...
+Setting up libpython2.7-dev:amd64 (2.7.6-8ubuntu0.3) ...
+Setting up libquadmath0:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up libsigsegv2:amd64 (2.10-2) ...
+Setting up libtsan0:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up libmpc3:amd64 (1.0.1-1ubuntu1) ...
+Setting up m4 (1.4.17-2ubuntu1) ...
+Setting up autoconf (2.69-6) ...
+Setting up autotools-dev (20130810.1) ...
+Setting up automake (1:1.14.1-2ubuntu1) ...
+update-alternatives: using /usr/bin/automake-1.14 to provide /usr/bin/automake (automake) in auto mode
+Setting up binutils (2.24-5ubuntu14.1) ...
+Setting up cpp-4.8 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up cpp (4:4.8.2-1ubuntu6) ...
+Setting up libgcc-4.8-dev:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up gcc-4.8 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up gcc (4:4.8.2-1ubuntu6) ...
+Setting up libstdc++-4.8-dev:amd64 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up g++-4.8 (4.8.4-2ubuntu1~14.04.3) ...
+Setting up g++ (4:4.8.2-1ubuntu6) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Setting up make (3.81-8.2ubuntu3) ...
+Setting up libtimedate-perl (2.3000-1) ...
+Setting up libdpkg-perl (1.17.5ubuntu5.7) ...
+Setting up patch (2.7.1-4ubuntu2.3) ...
+Setting up dpkg-dev (1.17.5ubuntu5.7) ...
+Setting up build-essential (11.6ubuntu6) ...
+Setting up libpython-dev:amd64 (2.7.5-5ubuntu3) ...
+Setting up python-chardet (2.0.1-2build2) ...
+Setting up python3-pkg-resources (3.3-1ubuntu2) ...
+Setting up python-chardet-whl (2.2.1-2~ubuntu1) ...
+Setting up python-colorama (0.2.5-0.1ubuntu2) ...
+Setting up python-colorama-whl (0.2.5-0.1ubuntu2) ...
+Setting up python2.7-dev (2.7.6-8ubuntu0.3) ...
+Setting up python-dev (2.7.5-5ubuntu3) ...
+Setting up python-distlib (0.1.8-1ubuntu1) ...
+Setting up python-distlib-whl (0.1.8-1ubuntu1) ...
+Setting up python-six (1.5.2-1ubuntu1) ...
+Setting up python-html5lib (0.999-3~ubuntu1) ...
+Setting up python-html5lib-whl (0.999-3~ubuntu1) ...
+Setting up python-six-whl (1.5.2-1ubuntu1) ...
+Setting up python-urllib3-whl (1.7.1-1ubuntu4) ...
+Setting up python-requests-whl (2.2.1-1ubuntu0.3) ...
+Setting up python-setuptools-whl (3.3-1ubuntu2) ...
+Setting up python-pip-whl (1.5.4-1ubuntu4) ...
+Setting up python-urllib3 (1.7.1-1ubuntu4) ...
+Setting up python-requests (2.2.1-1ubuntu0.3) ...
+Setting up python-pip (1.5.4-1ubuntu4) ...
+Setting up swig2.0 (2.0.11-1ubuntu2) ...
+Setting up swig (2.0.11-1ubuntu2) ...
+Setting up unzip (6.0-9ubuntu1.5) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.9) ...
+--2017-03-19 11:58:27--  https://github.com/jedisct1/libsodium/releases/download/1.0.11/libsodium-1.0.11.tar.gz
+Resolving github.com (github.com)... 192.30.253.112, 192.30.253.113
+Connecting to github.com (github.com)|192.30.253.112|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-cloud.s3.amazonaws.com/releases/7710647/8bebecee-574a-11e6-869c-108bcf3ef0fe.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20170319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170319T115828Z&X-Amz-Expires=300&X-Amz-Signature=3b18815d519a203702fa905dbf9dced56a6f6f9ff13a587893f4f945e05613aa&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibsodium-1.0.11.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2017-03-19 11:58:28--  https://github-cloud.s3.amazonaws.com/releases/7710647/8bebecee-574a-11e6-869c-108bcf3ef0fe.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20170319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170319T115828Z&X-Amz-Expires=300&X-Amz-Signature=3b18815d519a203702fa905dbf9dced56a6f6f9ff13a587893f4f945e05613aa&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibsodium-1.0.11.tar.gz&response-content-type=application%2Foctet-stream
+Resolving github-cloud.s3.amazonaws.com (github-cloud.s3.amazonaws.com)... 54.231.81.48
+Connecting to github-cloud.s3.amazonaws.com (github-cloud.s3.amazonaws.com)|54.231.81.48|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1846782 (1.8M) [application/octet-stream]
+Saving to: 'libsodium-1.0.11.tar.gz'
+
+     0K .......... .......... .......... .......... ..........  2%  364K 5s
+    50K .......... .......... .......... .......... ..........  5%  369K 5s
+   100K .......... .......... .......... .......... ..........  8%  736K 4s
+   150K .......... .......... .......... .......... .......... 11%  703K 3s
+   200K .......... .......... .......... .......... .......... 13% 15.4M 3s
+   250K .......... .......... .......... .......... .......... 16%  754K 2s
+   300K .......... .......... .......... .......... .......... 19%  742K 2s
+   350K .......... .......... .......... .......... .......... 22% 21.1M 2s
+   400K .......... .......... .......... .......... .......... 24%  676K 2s
+   450K .......... .......... .......... .......... .......... 27% 20.5M 2s
+   500K .......... .......... .......... .......... .......... 30%  767K 2s
+   550K .......... .......... .......... .......... .......... 33% 12.9M 1s
+   600K .......... .......... .......... .......... .......... 36%  781K 1s
+   650K .......... .......... .......... .......... .......... 38% 12.9M 1s
+   700K .......... .......... .......... .......... .......... 41% 16.4M 1s
+   750K .......... .......... .......... .......... .......... 44%  800K 1s
+   800K .......... .......... .......... .......... .......... 47% 17.5M 1s
+   850K .......... .......... .......... .......... .......... 49% 21.2M 1s
+   900K .......... .......... .......... .......... .......... 52%  801K 1s
+   950K .......... .......... .......... .......... .......... 55% 14.8M 1s
+  1000K .......... .......... .......... .......... .......... 58% 16.4M 1s
+  1050K .......... .......... .......... .......... .......... 60% 2.76M 1s
+  1100K .......... .......... .......... .......... .......... 63% 1.06M 1s
+  1150K .......... .......... .......... .......... .......... 66% 13.0M 0s
+  1200K .......... .......... .......... .......... .......... 69% 2.85M 0s
+  1250K .......... .......... .......... .......... .......... 72% 1.04M 0s
+  1300K .......... .......... .......... .......... .......... 74% 17.3M 0s
+  1350K .......... .......... .......... .......... .......... 77% 25.4M 0s
+  1400K .......... .......... .......... .......... .......... 80% 2.66M 0s
+  1450K .......... .......... .......... .......... .......... 83% 1.06M 0s
+  1500K .......... .......... .......... .......... .......... 85% 16.3M 0s
+  1550K .......... .......... .......... .......... .......... 88% 21.4M 0s
+  1600K .......... .......... .......... .......... .......... 91% 2.73M 0s
+  1650K .......... .......... .......... .......... .......... 94% 1.10M 0s
+  1700K .......... .......... .......... .......... .......... 97% 18.3M 0s
+  1750K .......... .......... .......... .......... .......... 99% 22.2M 0s
+  1800K ...                                                   100% 6.14M=1.2s
+
+2017-03-19 11:58:29 (1.50 MB/s) - 'libsodium-1.0.11.tar.gz' saved [1846782/1846782]
+
+--2017-03-19 11:58:29--  https://github.com/shadowsocks/shadowsocks/archive/master.zip
+Resolving github.com (github.com)... 192.30.253.113, 192.30.253.112
+Connecting to github.com (github.com)|192.30.253.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/shadowsocks/shadowsocks/zip/master [following]
+--2017-03-19 11:58:30--  https://codeload.github.com/shadowsocks/shadowsocks/zip/master
+Resolving codeload.github.com (codeload.github.com)... 192.30.253.121, 192.30.253.120
+Connecting to codeload.github.com (codeload.github.com)|192.30.253.121|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 104965 (103K) [application/zip]
+Saving to: 'shadowsocks-master.zip'
+
+     0K .......... .......... .......... .......... .......... 48%  378K 0s
+    50K .......... .......... .......... .......... .......... 97%  753K 0s
+   100K ..                                                    100% 4.69M=0.2s
+
+2017-03-19 11:58:30 (515 KB/s) - 'shadowsocks-master.zip' saved [104965/104965]
+
+--2017-03-19 11:58:30--  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-debian
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.24.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.24.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1936 (1.9K) [text/plain]
+Saving to: '/etc/init.d/shadowsocks'
+
+     0K .                                                     100% 6.45M=0s
+
+2017-03-19 11:58:30 (6.45 MB/s) - '/etc/init.d/shadowsocks' saved [1936/1936]
+
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking whether gcc is Clang... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for gcc option to accept ISO C99... -std=gnu99
+checking dependency style of gcc -std=gnu99... gcc3
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for __native_client__ defined... no
+checking for _FORTIFY_SOURCE defined... yes
+checking whether C compiler accepts -fvisibility=hidden... yes
+checking whether C compiler accepts -fPIC... yes
+checking whether the linker accepts -fPIC... yes
+checking whether C compiler accepts -fPIE... yes
+checking whether the linker accepts -fPIE... yes
+checking whether the linker accepts -pie... yes
+checking whether C compiler accepts -fno-strict-aliasing... yes
+checking whether C compiler accepts -fno-strict-overflow... yes
+checking whether C compiler accepts -fstack-protector... yes
+checking whether the linker accepts -fstack-protector... yes
+checking whether C compiler accepts -Wwrite-strings... yes
+checking whether C compiler accepts -Wdiv-by-zero... yes
+checking whether C compiler accepts -Wsometimes-uninitialized... no
+checking whether C compiler accepts  -Wall... yes
+checking whether C compiler accepts  -Wall -Wextra... yes
+checking for clang... no
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wduplicated-cond... no
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-unknown-pragmas... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-unknown-pragmas -Wnormalized=id... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference... no
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-unknown-pragmas -Wnormalized=id -Wpointer-arith... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-unknown-pragmas -Wnormalized=id -Wpointer-arith -Wredundant-decls... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-unknown-pragmas -Wnormalized=id -Wpointer-arith -Wredundant-decls -Wstrict-prototypes... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-unknown-pragmas -Wnormalized=id -Wpointer-arith -Wredundant-decls -Wstrict-prototypes -Wswitch-enum... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-unknown-pragmas -Wnormalized=id -Wpointer-arith -Wredundant-decls -Wstrict-prototypes -Wswitch-enum -Wvariable-decl... no
+checking whether the linker accepts -Wl,-z,relro... yes
+checking whether the linker accepts -Wl,-z,now... yes
+checking whether the linker accepts -Wl,-z,noexecstack... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc -std=gnu99... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc -std=gnu99 object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc -std=gnu99 supports -fno-rtti -fno-exceptions... no
+checking for gcc -std=gnu99 option to produce PIC... -fPIC -DPIC
+checking if gcc -std=gnu99 PIC flag -fPIC -DPIC works... yes
+checking if gcc -std=gnu99 static flag -static works... no
+checking if gcc -std=gnu99 supports -c -o file.o... yes
+checking if gcc -std=gnu99 supports -c -o file.o... (cached) yes
+checking whether the gcc -std=gnu99 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ar... (cached) ar
+checking for MMX instructions set... checking whether C compiler accepts -mmmx... yes
+yes
+checking whether C compiler accepts -mmmx... (cached) yes
+checking for SSE2 instructions set... checking whether C compiler accepts -msse2... yes
+yes
+checking whether C compiler accepts -msse2... (cached) yes
+checking whether C compiler accepts -msse3... yes
+checking for SSE3 instructions set... yes
+checking whether C compiler accepts -msse3... (cached) yes
+checking whether C compiler accepts -mssse3... yes
+checking for SSSE3 instructions set... yes
+checking whether C compiler accepts -mssse3... (cached) yes
+checking whether C compiler accepts -msse4.1... yes
+checking for SSE4.1 instructions set... yes
+checking whether C compiler accepts -msse4.1... (cached) yes
+checking whether C compiler accepts -mavx... yes
+checking for AVX instructions set... yes
+checking whether C compiler accepts -mavx... (cached) yes
+checking whether C compiler accepts -mavx2... yes
+checking for AVX2 instructions set... yes
+checking whether C compiler accepts -mavx2... (cached) yes
+checking if _mm256_broadcastsi128_si256 is correctly defined... yes
+checking whether C compiler accepts -maes... yes
+checking whether C compiler accepts -mpclmul... yes
+checking for AESNI instructions set and PCLMULQDQ... yes
+checking whether C compiler accepts -maes... (cached) yes
+checking whether C compiler accepts -mpclmul... (cached) yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking for inline... inline
+checking whether byte ordering is bigendian... (cached) no
+checking whether __STDC_LIMIT_MACROS is required... no
+checking whether we can use x86_64 asm code... yes
+checking whether we can assemble AVX opcodes... yes
+checking for 128-bit arithmetic... yes
+checking for cpuid instruction... yes
+checking if the .private_extern asm directive is supported... no
+checking if the .hidden asm directive is supported... yes
+checking if weak symbols are supported... yes
+checking if data alignment is required... no
+checking for arc4random... no
+checking for arc4random_buf... no
+checking for mmap... yes
+checking for mlock... yes
+checking for madvise... yes
+checking for mprotect... yes
+checking for explicit_bzero... no
+checking for nanosleep... yes
+checking for posix_memalign... yes
+checking for getpid... yes
+checking if gcc/ld supports -Wl,--output-def... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating dist-build/Makefile
+config.status: creating libsodium.pc
+config.status: creating libsodium-uninstalled.pc
+config.status: creating msvc-scripts/Makefile
+config.status: creating src/Makefile
+config.status: creating src/libsodium/Makefile
+config.status: creating src/libsodium/include/Makefile
+config.status: creating src/libsodium/include/sodium/version.h
+config.status: creating test/default/Makefile
+config.status: creating test/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Making all in dist-build
+make[1]: Entering directory `/root/libsodium-1.0.11/dist-build'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/root/libsodium-1.0.11/dist-build'
+Making all in msvc-scripts
+make[1]: Entering directory `/root/libsodium-1.0.11/msvc-scripts'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/root/libsodium-1.0.11/msvc-scripts'
+Making all in src
+make[1]: Entering directory `/root/libsodium-1.0.11/src'
+Making all in libsodium
+make[2]: Entering directory `/root/libsodium-1.0.11/src/libsodium'
+Making all in include
+make[3]: Entering directory `/root/libsodium-1.0.11/src/libsodium/include'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/root/libsodium-1.0.11/src/libsodium/include'
+make[3]: Entering directory `/root/libsodium-1.0.11/src/libsodium'
+  CC       crypto_aead/chacha20poly1305/sodium/libsodium_la-aead_chacha20poly1305.lo
+  CC       crypto_auth/libsodium_la-crypto_auth.lo
+  CC       crypto_auth/hmacsha256/libsodium_la-auth_hmacsha256_api.lo
+  CC       crypto_auth/hmacsha256/cp/libsodium_la-hmac_hmacsha256.lo
+  CC       crypto_auth/hmacsha256/cp/libsodium_la-verify_hmacsha256.lo
+  CC       crypto_auth/hmacsha512/libsodium_la-auth_hmacsha512_api.lo
+  CC       crypto_auth/hmacsha512/cp/libsodium_la-hmac_hmacsha512.lo
+  CC       crypto_auth/hmacsha512/cp/libsodium_la-verify_hmacsha512.lo
+  CC       crypto_auth/hmacsha512256/libsodium_la-auth_hmacsha512256_api.lo
+  CC       crypto_auth/hmacsha512256/cp/libsodium_la-hmac_hmacsha512256.lo
+  CC       crypto_auth/hmacsha512256/cp/libsodium_la-verify_hmacsha512256.lo
+  CC       crypto_box/libsodium_la-crypto_box.lo
+  CC       crypto_box/libsodium_la-crypto_box_easy.lo
+  CC       crypto_box/libsodium_la-crypto_box_seal.lo
+  CC       crypto_box/curve25519xsalsa20poly1305/libsodium_la-box_curve25519xsalsa20poly1305_api.lo
+  CC       crypto_box/curve25519xsalsa20poly1305/ref/libsodium_la-after_curve25519xsalsa20poly1305.lo
+  CC       crypto_box/curve25519xsalsa20poly1305/ref/libsodium_la-before_curve25519xsalsa20poly1305.lo
+  CC       crypto_box/curve25519xsalsa20poly1305/ref/libsodium_la-box_curve25519xsalsa20poly1305.lo
+  CC       crypto_box/curve25519xsalsa20poly1305/ref/libsodium_la-keypair_curve25519xsalsa20poly1305.lo
+  CC       crypto_core/curve25519/ref10/libsodium_la-curve25519_ref10.lo
+  CC       crypto_core/hsalsa20/ref2/libsodium_la-core_hsalsa20.lo
+  CC       crypto_core/hsalsa20/libsodium_la-core_hsalsa20_api.lo
+  CC       crypto_core/salsa20/ref/libsodium_la-core_salsa20.lo
+  CC       crypto_core/salsa20/libsodium_la-core_salsa20_api.lo
+  CC       crypto_generichash/libsodium_la-crypto_generichash.lo
+  CC       crypto_generichash/blake2/libsodium_la-generichash_blake2_api.lo
+  CC       crypto_generichash/blake2/ref/libsodium_la-blake2b-compress-ref.lo
+  CC       crypto_generichash/blake2/ref/libsodium_la-blake2b-ref.lo
+  CC       crypto_generichash/blake2/ref/libsodium_la-generichash_blake2b.lo
+  CC       crypto_hash/libsodium_la-crypto_hash.lo
+  CC       crypto_hash/sha256/libsodium_la-hash_sha256_api.lo
+  CC       crypto_hash/sha256/cp/libsodium_la-hash_sha256.lo
+  CC       crypto_hash/sha512/libsodium_la-hash_sha512_api.lo
+  CC       crypto_hash/sha512/cp/libsodium_la-hash_sha512.lo
+  CC       crypto_onetimeauth/libsodium_la-crypto_onetimeauth.lo
+  CC       crypto_onetimeauth/poly1305/libsodium_la-onetimeauth_poly1305.lo
+  CC       crypto_onetimeauth/poly1305/donna/libsodium_la-poly1305_donna.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2-core.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2-encoding.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2-fill-block-ref.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2.lo
+  CC       crypto_pwhash/argon2/libsodium_la-blake2b-long.lo
+  CC       crypto_pwhash/argon2/libsodium_la-pwhash_argon2i.lo
+  CC       crypto_pwhash/libsodium_la-crypto_pwhash.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-crypto_scrypt-common.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-scrypt_platform.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-pbkdf2-sha256.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-pwhash_scryptsalsa208sha256.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/nosse/libsodium_la-pwhash_scryptsalsa208sha256_nosse.lo
+  CC       crypto_scalarmult/libsodium_la-crypto_scalarmult.lo
+  CC       crypto_scalarmult/curve25519/libsodium_la-scalarmult_curve25519.lo
+  CC       crypto_secretbox/libsodium_la-crypto_secretbox.lo
+  CC       crypto_secretbox/libsodium_la-crypto_secretbox_easy.lo
+  CC       crypto_secretbox/xsalsa20poly1305/libsodium_la-secretbox_xsalsa20poly1305_api.lo
+  CC       crypto_secretbox/xsalsa20poly1305/ref/libsodium_la-box_xsalsa20poly1305.lo
+  CC       crypto_shorthash/libsodium_la-crypto_shorthash.lo
+  CC       crypto_shorthash/siphash24/libsodium_la-shorthash_siphash24_api.lo
+  CC       crypto_shorthash/siphash24/ref/libsodium_la-shorthash_siphash24.lo
+  CC       crypto_sign/libsodium_la-crypto_sign.lo
+  CC       crypto_sign/ed25519/libsodium_la-sign_ed25519_api.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-keypair.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-open.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-sign.lo
+  CC       crypto_stream/chacha20/libsodium_la-stream_chacha20.lo
+  CC       crypto_stream/chacha20/ref/libsodium_la-stream_chacha20_ref.lo
+  CC       crypto_stream/libsodium_la-crypto_stream.lo
+  CC       crypto_stream/salsa20/libsodium_la-stream_salsa20_api.lo
+  CC       crypto_stream/xsalsa20/libsodium_la-stream_xsalsa20_api.lo
+  CC       crypto_stream/xsalsa20/ref/libsodium_la-stream_xsalsa20.lo
+  CC       crypto_stream/xsalsa20/ref/libsodium_la-xor_xsalsa20.lo
+  CC       crypto_verify/16/libsodium_la-verify_16_api.lo
+  CC       crypto_verify/16/ref/libsodium_la-verify_16.lo
+  CC       crypto_verify/32/libsodium_la-verify_32_api.lo
+  CC       crypto_verify/32/ref/libsodium_la-verify_32.lo
+  CC       crypto_verify/64/libsodium_la-verify_64_api.lo
+  CC       crypto_verify/64/ref/libsodium_la-verify_64.lo
+  CC       randombytes/libsodium_la-randombytes.lo
+  CC       sodium/libsodium_la-core.lo
+  CC       sodium/libsodium_la-runtime.lo
+  CC       sodium/libsodium_la-utils.lo
+  CC       sodium/libsodium_la-version.lo
+  CC       randombytes/salsa20/libsodium_la-randombytes_salsa20_random.lo
+  CC       randombytes/sysrandom/libsodium_la-randombytes_sysrandom.lo
+  CC       crypto_scalarmult/curve25519/donna_c64/libsodium_la-curve25519_donna_c64.lo
+  CC       crypto_scalarmult/curve25519/sandy2x/libsodium_la-curve25519_sandy2x.lo
+  CC       crypto_scalarmult/curve25519/sandy2x/libsodium_la-fe51_invert.lo
+  CC       crypto_scalarmult/curve25519/sandy2x/libsodium_la-fe_frombytes_sandy2x.lo
+  CPPAS    crypto_scalarmult/curve25519/sandy2x/libsodium_la-sandy2x.lo
+  CPPAS    crypto_stream/salsa20/amd64_xmm6/libsodium_la-stream_salsa20_amd64_xmm6.lo
+  CC       crypto_core/hchacha20/libsodium_la-core_hchacha20.lo
+  CC       crypto_core/salsa2012/ref/libsodium_la-core_salsa2012.lo
+  CC       crypto_core/salsa2012/libsodium_la-core_salsa2012_api.lo
+  CC       crypto_core/salsa208/ref/libsodium_la-core_salsa208.lo
+  CC       crypto_core/salsa208/libsodium_la-core_salsa208_api.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-obsolete.lo
+  CC       crypto_stream/aes128ctr/portable/libsodium_la-afternm_aes128ctr.lo
+  CC       crypto_stream/aes128ctr/libsodium_la-stream_aes128ctr_api.lo
+  CC       crypto_stream/aes128ctr/portable/libsodium_la-beforenm_aes128ctr.lo
+  CC       crypto_stream/aes128ctr/portable/libsodium_la-consts_aes128ctr.lo
+  CC       crypto_stream/aes128ctr/portable/libsodium_la-int128_aes128ctr.lo
+  CC       crypto_stream/aes128ctr/portable/libsodium_la-stream_aes128ctr.lo
+  CC       crypto_stream/aes128ctr/portable/libsodium_la-xor_afternm_aes128ctr.lo
+  CC       crypto_stream/salsa2012/libsodium_la-stream_salsa2012_api.lo
+  CC       crypto_stream/salsa2012/ref/libsodium_la-stream_salsa2012.lo
+  CC       crypto_stream/salsa2012/ref/libsodium_la-xor_salsa2012.lo
+  CC       crypto_stream/salsa208/libsodium_la-stream_salsa208_api.lo
+  CC       crypto_stream/salsa208/ref/libsodium_la-stream_salsa208.lo
+  CC       crypto_stream/salsa208/ref/libsodium_la-xor_salsa208.lo
+  CC       crypto_aead/aes256gcm/aesni/libaesni_la-aead_aes256gcm_aesni.lo
+  CCLD     libaesni.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+  CC       crypto_pwhash/scryptsalsa208sha256/sse/libsse2_la-pwhash_scryptsalsa208sha256_sse.lo
+  CC       crypto_onetimeauth/poly1305/sse2/libsse2_la-poly1305_sse2.lo
+  CCLD     libsse2.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+  CC       crypto_generichash/blake2/ref/libssse3_la-blake2b-compress-ssse3.lo
+  CC       crypto_pwhash/argon2/libssse3_la-argon2-fill-block-ssse3.lo
+  CC       crypto_stream/chacha20/vec/libssse3_la-stream_chacha20_vec.lo
+  CCLD     libssse3.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+  CC       crypto_generichash/blake2/ref/libsse41_la-blake2b-compress-sse41.lo
+  CCLD     libsse41.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+  CC       crypto_generichash/blake2/ref/libavx2_la-blake2b-compress-avx2.lo
+  CCLD     libavx2.la
+libtool: warning: '-version-info/-version-number' is ignored for convenience libraries
+  CCLD     libsodium.la
+make[3]: Leaving directory `/root/libsodium-1.0.11/src/libsodium'
+make[2]: Leaving directory `/root/libsodium-1.0.11/src/libsodium'
+make[2]: Entering directory `/root/libsodium-1.0.11/src'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/root/libsodium-1.0.11/src'
+make[1]: Leaving directory `/root/libsodium-1.0.11/src'
+Making all in test
+make[1]: Entering directory `/root/libsodium-1.0.11/test'
+Making all in default
+make[2]: Entering directory `/root/libsodium-1.0.11/test/default'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/root/libsodium-1.0.11/test/default'
+make[2]: Entering directory `/root/libsodium-1.0.11/test'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/root/libsodium-1.0.11/test'
+make[1]: Leaving directory `/root/libsodium-1.0.11/test'
+make[1]: Entering directory `/root/libsodium-1.0.11'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/root/libsodium-1.0.11'
+Making install in dist-build
+make[1]: Entering directory `/root/libsodium-1.0.11/dist-build'
+make[2]: Entering directory `/root/libsodium-1.0.11/dist-build'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/root/libsodium-1.0.11/dist-build'
+make[1]: Leaving directory `/root/libsodium-1.0.11/dist-build'
+Making install in msvc-scripts
+make[1]: Entering directory `/root/libsodium-1.0.11/msvc-scripts'
+make[2]: Entering directory `/root/libsodium-1.0.11/msvc-scripts'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/root/libsodium-1.0.11/msvc-scripts'
+make[1]: Leaving directory `/root/libsodium-1.0.11/msvc-scripts'
+Making install in src
+make[1]: Entering directory `/root/libsodium-1.0.11/src'
+Making install in libsodium
+make[2]: Entering directory `/root/libsodium-1.0.11/src/libsodium'
+Making install in include
+make[3]: Entering directory `/root/libsodium-1.0.11/src/libsodium/include'
+make[4]: Entering directory `/root/libsodium-1.0.11/src/libsodium/include'
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/usr/local/include'
+ /bin/mkdir -p '/usr/local/include/sodium'
+ /usr/bin/install -c -m 644  sodium/core.h sodium/crypto_aead_aes256gcm.h sodium/crypto_aead_chacha20poly1305.h sodium/crypto_auth.h sodium/crypto_auth_hmacsha256.h sodium/crypto_auth_hmacsha512.h sodium/crypto_auth_hmacsha512256.h sodium/crypto_box.h sodium/crypto_box_curve25519xsalsa20poly1305.h sodium/crypto_core_hchacha20.h sodium/crypto_core_hsalsa20.h sodium/crypto_core_salsa20.h sodium/crypto_core_salsa2012.h sodium/crypto_core_salsa208.h sodium/crypto_generichash.h sodium/crypto_generichash_blake2b.h sodium/crypto_hash.h sodium/crypto_hash_sha256.h sodium/crypto_hash_sha512.h sodium/crypto_onetimeauth.h sodium/crypto_onetimeauth_poly1305.h sodium/crypto_pwhash.h sodium/crypto_pwhash_argon2i.h sodium/crypto_pwhash_scryptsalsa208sha256.h sodium/crypto_scalarmult.h sodium/crypto_scalarmult_curve25519.h sodium/crypto_secretbox.h sodium/crypto_secretbox_xsalsa20poly1305.h sodium/crypto_shorthash.h sodium/crypto_shorthash_siphash24.h sodium/crypto_sign.h sodium/crypto_sign_ed25519.h sodium/crypto_sign_edwards25519sha512batch.h sodium/crypto_stream.h sodium/crypto_stream_aes128ctr.h sodium/crypto_stream_chacha20.h sodium/crypto_stream_salsa20.h sodium/crypto_stream_salsa2012.h sodium/crypto_stream_salsa208.h sodium/crypto_stream_xsalsa20.h '/usr/local/include/sodium'
+ /usr/bin/install -c -m 644  sodium.h '/usr/local/include/.'
+ /bin/mkdir -p '/usr/local/include/sodium'
+ /usr/bin/install -c -m 644  sodium/crypto_int32.h sodium/crypto_int64.h sodium/crypto_uint16.h sodium/crypto_uint32.h sodium/crypto_uint64.h sodium/crypto_uint8.h sodium/crypto_verify_16.h sodium/crypto_verify_32.h sodium/crypto_verify_64.h sodium/export.h sodium/randombytes.h sodium/randombytes_salsa20_random.h sodium/randombytes_sysrandom.h sodium/runtime.h sodium/utils.h '/usr/local/include/sodium'
+ /bin/mkdir -p '/usr/local/include'
+ /bin/mkdir -p '/usr/local/include/sodium'
+ /usr/bin/install -c -m 644  sodium/version.h '/usr/local/include/sodium'
+make[4]: Leaving directory `/root/libsodium-1.0.11/src/libsodium/include'
+make[3]: Leaving directory `/root/libsodium-1.0.11/src/libsodium/include'
+make[3]: Entering directory `/root/libsodium-1.0.11/src/libsodium'
+make[4]: Entering directory `/root/libsodium-1.0.11/src/libsodium'
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libsodium.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libsodium.so.18.1.1 /usr/local/lib/libsodium.so.18.1.1
+libtool: install: (cd /usr/local/lib && { ln -s -f libsodium.so.18.1.1 libsodium.so.18 || { rm -f libsodium.so.18 && ln -s libsodium.so.18.1.1 libsodium.so.18; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libsodium.so.18.1.1 libsodium.so || { rm -f libsodium.so && ln -s libsodium.so.18.1.1 libsodium.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsodium.lai /usr/local/lib/libsodium.la
+libtool: install: /usr/bin/install -c .libs/libsodium.a /usr/local/lib/libsodium.a
+libtool: install: chmod 644 /usr/local/lib/libsodium.a
+libtool: install: ranlib /usr/local/lib/libsodium.a
+libtool: finish: PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/root/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/root/libsodium-1.0.11/src/libsodium'
+make[3]: Leaving directory `/root/libsodium-1.0.11/src/libsodium'
+make[2]: Leaving directory `/root/libsodium-1.0.11/src/libsodium'
+make[2]: Entering directory `/root/libsodium-1.0.11/src'
+make[3]: Entering directory `/root/libsodium-1.0.11/src'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/root/libsodium-1.0.11/src'
+make[2]: Leaving directory `/root/libsodium-1.0.11/src'
+make[1]: Leaving directory `/root/libsodium-1.0.11/src'
+Making install in test
+make[1]: Entering directory `/root/libsodium-1.0.11/test'
+Making install in default
+make[2]: Entering directory `/root/libsodium-1.0.11/test/default'
+make[3]: Entering directory `/root/libsodium-1.0.11/test/default'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/root/libsodium-1.0.11/test/default'
+make[2]: Leaving directory `/root/libsodium-1.0.11/test/default'
+make[2]: Entering directory `/root/libsodium-1.0.11/test'
+make[3]: Entering directory `/root/libsodium-1.0.11/test'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/root/libsodium-1.0.11/test'
+make[2]: Leaving directory `/root/libsodium-1.0.11/test'
+make[1]: Leaving directory `/root/libsodium-1.0.11/test'
+make[1]: Entering directory `/root/libsodium-1.0.11'
+make[2]: Entering directory `/root/libsodium-1.0.11'
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/usr/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libsodium.pc '/usr/local/lib/pkgconfig'
+make[2]: Leaving directory `/root/libsodium-1.0.11'
+make[1]: Leaving directory `/root/libsodium-1.0.11'
+running install
+running bdist_egg
+running egg_info
+creating shadowsocks.egg-info
+writing shadowsocks.egg-info/PKG-INFO
+writing top-level names to shadowsocks.egg-info/top_level.txt
+writing dependency_links to shadowsocks.egg-info/dependency_links.txt
+writing entry points to shadowsocks.egg-info/entry_points.txt
+writing manifest file 'shadowsocks.egg-info/SOURCES.txt'
+reading manifest file 'shadowsocks.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'shadowsocks.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/eventloop.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/lru_cache.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/local.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/shell.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/__init__.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/udprelay.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/server.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/common.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/cryptor.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/asyncdns.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/tcprelay.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/daemon.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/manager.py -> build/lib.linux-x86_64-2.7/shadowsocks
+copying shadowsocks/tunnel.py -> build/lib.linux-x86_64-2.7/shadowsocks
+creating build/lib.linux-x86_64-2.7/shadowsocks/crypto
+copying shadowsocks/crypto/__init__.py -> build/lib.linux-x86_64-2.7/shadowsocks/crypto
+copying shadowsocks/crypto/sodium.py -> build/lib.linux-x86_64-2.7/shadowsocks/crypto
+copying shadowsocks/crypto/aead.py -> build/lib.linux-x86_64-2.7/shadowsocks/crypto
+copying shadowsocks/crypto/util.py -> build/lib.linux-x86_64-2.7/shadowsocks/crypto
+copying shadowsocks/crypto/table.py -> build/lib.linux-x86_64-2.7/shadowsocks/crypto
+copying shadowsocks/crypto/rc4_md5.py -> build/lib.linux-x86_64-2.7/shadowsocks/crypto
+copying shadowsocks/crypto/openssl.py -> build/lib.linux-x86_64-2.7/shadowsocks/crypto
+copying shadowsocks/crypto/hkdf.py -> build/lib.linux-x86_64-2.7/shadowsocks/crypto
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/eventloop.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/lru_cache.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/local.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/shell.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/__init__.py -> build/bdist.linux-x86_64/egg/shadowsocks
+creating build/bdist.linux-x86_64/egg/shadowsocks/crypto
+copying build/lib.linux-x86_64-2.7/shadowsocks/crypto/__init__.py -> build/bdist.linux-x86_64/egg/shadowsocks/crypto
+copying build/lib.linux-x86_64-2.7/shadowsocks/crypto/sodium.py -> build/bdist.linux-x86_64/egg/shadowsocks/crypto
+copying build/lib.linux-x86_64-2.7/shadowsocks/crypto/aead.py -> build/bdist.linux-x86_64/egg/shadowsocks/crypto
+copying build/lib.linux-x86_64-2.7/shadowsocks/crypto/util.py -> build/bdist.linux-x86_64/egg/shadowsocks/crypto
+copying build/lib.linux-x86_64-2.7/shadowsocks/crypto/table.py -> build/bdist.linux-x86_64/egg/shadowsocks/crypto
+copying build/lib.linux-x86_64-2.7/shadowsocks/crypto/rc4_md5.py -> build/bdist.linux-x86_64/egg/shadowsocks/crypto
+copying build/lib.linux-x86_64-2.7/shadowsocks/crypto/openssl.py -> build/bdist.linux-x86_64/egg/shadowsocks/crypto
+copying build/lib.linux-x86_64-2.7/shadowsocks/crypto/hkdf.py -> build/bdist.linux-x86_64/egg/shadowsocks/crypto
+copying build/lib.linux-x86_64-2.7/shadowsocks/udprelay.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/server.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/common.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/cryptor.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/asyncdns.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/tcprelay.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/daemon.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/manager.py -> build/bdist.linux-x86_64/egg/shadowsocks
+copying build/lib.linux-x86_64-2.7/shadowsocks/tunnel.py -> build/bdist.linux-x86_64/egg/shadowsocks
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/eventloop.py to eventloop.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/lru_cache.py to lru_cache.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/local.py to local.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/shell.py to shell.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/crypto/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/crypto/sodium.py to sodium.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/crypto/aead.py to aead.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/crypto/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/crypto/table.py to table.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/crypto/rc4_md5.py to rc4_md5.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/crypto/openssl.py to openssl.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/crypto/hkdf.py to hkdf.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/udprelay.py to udprelay.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/server.py to server.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/common.py to common.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/cryptor.py to cryptor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/asyncdns.py to asyncdns.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/tcprelay.py to tcprelay.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/daemon.py to daemon.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/manager.py to manager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/shadowsocks/tunnel.py to tunnel.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying shadowsocks.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying shadowsocks.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying shadowsocks.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying shadowsocks.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying shadowsocks.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+shadowsocks.local: module references __file__
+shadowsocks.shell: module references __file__
+shadowsocks.server: module references __file__
+shadowsocks.tunnel: module references __file__
+creating dist
+creating 'dist/shadowsocks-3.0.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing shadowsocks-3.0.0-py2.7.egg
+creating /usr/local/lib/python2.7/dist-packages/shadowsocks-3.0.0-py2.7.egg
+Extracting shadowsocks-3.0.0-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding shadowsocks 3.0.0 to easy-install.pth file
+Installing sslocal script to /usr/local/bin
+Installing ssserver script to /usr/local/bin
+
+Installed /usr/local/lib/python2.7/dist-packages/shadowsocks-3.0.0-py2.7.egg
+Processing dependencies for shadowsocks==3.0.0
+Finished processing dependencies for shadowsocks==3.0.0
+writing list of installed files to '/usr/local/shadowsocks_install.log'
+ Adding system startup for /etc/init.d/shadowsocks ...
+   /etc/rc0.d/K20shadowsocks -> ../init.d/shadowsocks
+   /etc/rc1.d/K20shadowsocks -> ../init.d/shadowsocks
+   /etc/rc6.d/K20shadowsocks -> ../init.d/shadowsocks
+   /etc/rc2.d/S20shadowsocks -> ../init.d/shadowsocks
+   /etc/rc3.d/S20shadowsocks -> ../init.d/shadowsocks
+   /etc/rc4.d/S20shadowsocks -> ../init.d/shadowsocks
+   /etc/rc5.d/S20shadowsocks -> ../init.d/shadowsocks
+INFO: loading config from /etc/shadowsocks.json
+2017-03-19 11:59:59 INFO     loading libcrypto from libcrypto.so.1.0.0
+Starting Shadowsocks success
+[H[2J
+Congratulations, shadowsocks server install completed!
+Your Server IP: [41;37m 45.32.70.36 [0m
+Your Server Port: [41;37m 443 [0m
+Your Password: [41;37m 87607617 [0m
+Your Local IP: [41;37m 127.0.0.1 [0m
+Your Local Port: [41;37m 1080 [0m
+Your Encryption Method: [41;37m aes-256-cfb [0m
+
+Welcome to visit:https://teddysun.com/342.html
+Enjoy it!
+
